@@ -222,3 +222,64 @@ Antelope: 158.063 = 2.858Q --> 55.305 AF - 74.29 AF = buying 18.985
   **Antelope's cost: (74.29 * 158.063) + (18.985 * 158.063) = $14,743.33**
 Ventura: 158.063 = 1.776Q --> 88.999 AF - 82.74 AF = selling 6.259
   **Ventura's cost: (88.999 * 158.063) - (6.259 * 158.063) = $13,078.13**
+  
+###4 A severe drought hits California, and it is necessary to reduce water use from 500 AF down to 300 AF. Your job is to estimate the cost of the drought (i.e., the cost of reducing water use from 500 AF to 300 AF) to each irrigation district under each policy. Considering the entire jump from status quo (755 AF) to the drought (300 AF), which policy is preferred by each irrigation district? How does your answer depend on how rights are allocated to each district (in policies (a) and (c))2?
+
+Cap Without Trade Drought Cost [500 AF down to 300 AF]
+
+ **Each district must reduce their water use by a magnitude of the fraction $\frac{300}{500}$ or 0.4** 
+
+-   **Kern cost of abatement = $1,804.92**
+  New 500 AF Baseline Q: 99.345
+      (99.345 * 0.4) = 39.738 AF
+      MCA: (39.738 * 2.286) = $90.84
+      TCA: (90.84 * 39.738) / 2 = $1,804.92
+-   **Mojave Cost of Abatement = $2,616.35**
+  New 500 AF Baseline Q: 92.722
+      (92.722 * 0.4) = 37.0888 AF
+      MCA: (37.0888 * 3.804) = $141.09
+      TCA: (141.09 * 37.0888) / 2 = $2,616.35
+-   **Antelope Cost of Abatement = $4,854.08**
+  New 500 AF Baseline Q: 145.706
+      (145.706* 0.4) = 58.2824 AF
+      MCA: (58.2824 * 2.858) = $166.57
+      TCA: (166.57 * 58.2824) / 2 = $4,854.08
+-   **Ventura Cost of Abatement = $3,740.73**
+  New 500 AF Baseline Q: 162.2635
+      (162.2635 * 0.4) = 64.904 AF
+      MCA: (64.904 * 1.776) = $115.27
+      TCA: (115.27 * 64.904) / 2 = $3,740.73
+
+Cap Without Trade Drought Cost [755 AF down to 300]
+
+ **Each district must reduce their water use by a magnitude of the fraction $\frac{300}{755}$ or 0.6026** 
+
+-   **Kern cost of abatement = $9,338.71**
+  Original 755 AF Baseline Q: 150 AF
+      (150 * 0.6026) = 90.39 AF
+      MCA: (90.39 * 2.286) = $206.63
+      TCA: (206.63 * 90.39) / 2 = $9,338.71
+-   **Mojave Cost of Abatement = $13,537.08**
+  Original 755 AF Baseline Q: 140 AF
+      (140 * 0.6026) = 84.364 AF
+      MCA: (84.364 * 3.804) = $320.92
+      TCA: (320.92 * 84.364 / 2 = $13,537.08
+-   **Antelope Cost of Abatement = $25,115.15**
+  Original 755 AF Baseline Q: 220 AF
+      (220 * 0.6026) = 132.572 AF
+      MCA: (132.572 * 2.858) = $378.89
+      TCA: (378.89 * 132.572) / 2 = $25,115.15
+-   **Ventura Cost of Abatement = $19,355.46**
+  Original 755 AF Baseline Q: 245 AF
+      (245 * 0.6026) = 147.637 AF
+      MCA: (147.637 * 1.776) = $262.20
+      TCA: (262.20 * 147.637) / 2 = $19,355.46
+      
+      Total Cost is: $67,346.40
+
+
+
+
+
+
+
