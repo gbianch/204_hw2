@@ -215,7 +215,7 @@ The stringency will be the same as the first scenario; each district must reduce
 The marginal cost of abatement is 158.063 using the last unit abated (255 AF) and the optimal quantity is equal to that found in the tax scenario. The district cost is the difference between that quanity and the quantity found in the cap no trade scenario.  **The total cost is $38,742.98**
 
 Kern: 158.063 = 2.286Q -> Q = 69.144 - 50.66 AF = selling 18.484
- **Kern's cost: (69.144 * 158.063 * 0.5) - (18.484 * 158.063) = $2542.92**
+ **Kern's cost: (69.144 * 158.063 * 0.5) - (18.484 * 158.063) = $2,542.92**
 Mojave: 158.063 = 3.804Q --> 41.552 AF - 47.28 AF = buying 5.728
   **Mojave's cost: (47.28 * 158.063) + (5.728 * 158.063) = $8,378.60**
 Antelope: 158.063 = 2.858Q --> 55.305 AF - 74.29 AF = buying 18.985
@@ -225,9 +225,9 @@ Ventura: 158.063 = 1.776Q --> 88.999 AF - 82.74 AF = selling 6.259
   
 ###4 A severe drought hits California, and it is necessary to reduce water use from 500 AF down to 300 AF. Your job is to estimate the cost of the drought (i.e., the cost of reducing water use from 500 AF to 300 AF) to each irrigation district under each policy. Considering the entire jump from status quo (755 AF) to the drought (300 AF), which policy is preferred by each irrigation district? How does your answer depend on how rights are allocated to each district (in policies (a) and (c))2?
 
-Cap Without Trade Drought Cost [500 AF down to 300 AF]
+Policy a) Cap Without Trade Drought Cost [500 AF down to 300 AF]
 
- **Each district must reduce their water use by a magnitude of the fraction $\frac{300}{500}$ or 0.4** 
+Each district must reduce their water use by a magnitude of the fraction $\frac{300}{500}$ or 0.4.
 
 -   **Kern cost of abatement = $1,804.92**
   New 500 AF Baseline Q: 99.345
@@ -249,10 +249,12 @@ Cap Without Trade Drought Cost [500 AF down to 300 AF]
       (162.2635 * 0.4) = 64.904 AF
       MCA: (64.904 * 1.776) = $115.27
       TCA: (115.27 * 64.904) / 2 = $3,740.73
+    
+    Total Cost is: $13,016.08
 
 Cap Without Trade Drought Cost [755 AF down to 300]
 
- **Each district must reduce their water use by a magnitude of the fraction $\frac{300}{755}$ or 0.6026** 
+Each district must reduce their water use by a magnitude of the fraction $\frac{300}{755}$ or 0.6026.
 
 -   **Kern cost of abatement = $9,338.71**
   Original 755 AF Baseline Q: 150 AF
@@ -277,7 +279,62 @@ Cap Without Trade Drought Cost [755 AF down to 300]
       
       Total Cost is: $67,346.40
 
+Policy b) Taxing Water Use
 
+[500 AF to 300 AF]
+The aggregate is Q= (1/2.286 + 1/3.804 + 1/2.858 + 1/1.776) * MC-> Q=1.613MC
+Using the abatement curve, we can plug in 200 for Q. 200 = 1.613 * MC --> MC = 123.993, therefore **the stringency or the magnitude of the tax is $123.99/AF.**
+
+  **Tax Revenue -> 200 * 123.99 = $24,798.00**
+
+[755 AF to 300 AF]
+The aggregate is Q= (1/2.286 + 1/3.804 + 1/2.858 + 1/1.776) * MC-> Q=1.613MC
+Using the abatement curve, we can plug in 455 for Q. 455 = 1613* MC --> MC = 282.083, therefore **the stringency or the magnitude of the tax is $282.08/AF.**
+
+  **Tax Revenue -> 455 * 282.08 = $128,346.40**
+
+Policy c) Cap and Trade
+
+[500 AF to 300 AF]
+
+The Stringency will be the same as above for this reduction. Each district must reduce their water use by a magnitude of the fraction $\frac{300}{500}$ or 0.4.
+
+The marginal cost of abatement is $123.99 using the last unit abated (200 AF) and the optimal quantity is equal to that found in the tax scenario. The district cost is the difference between that quantity and the quantity found in the cap no trade scenario.
+ **The Total Cost is $23,841.66**
+
+Kern: 123.99 = 2.286Q -> Q = 54.239 - 39.738 AF = selling 14.501
+ **Kern's cost: (54.239 * 123.99 * 0.5) - (14.501 * 123.99) = $1,564.57**
+Mojave: 123.99 = 3.804Q --> 32.595 AF - 37.0888 AF = buying 4.4938
+  **Mojave's cost: (37.0888 * 123.99) + (4.4938 * 123.99) = $5,155.83**
+Antelope: 123.99 = 2.858Q --> 43.383 AF - 58.2824 AF = buying 14.8994
+  **Antelope's cost: (58.2824 * 123.99) + (14.8994 * 123.99) = $9,073.81**
+Ventura: 123.99 = 1.776Q --> 69.814 AF - 64.904 AF = selling 4.910
+  **Ventura's cost: (69.814 * 123.99) - (4.910 * 123.99) = $8,047.45**
+
+[755 AF to 300 AF]
+
+The Stringency will be the same as above for this reduction. Each district must reduce their water use by a magnitude of the fraction $\frac{300}{755}$ or 0.6026.
+
+The marginal cost of abatement is $282.08 using the last unit abated (455 AF) and the optimal quantity is equal to that found in the tax scenario. The district cost is the difference between that quantity and the quantity found in the cap no trade scenario.
+ **The Total Cost is $123,373.52**
+
+Kern: 282.083 = 2.286Q -> Q = 123.396 - 90.39 AF = selling 33.006
+ **Kern's cost: (123.396 * 282.083* 0.5) - (33.006 * 282.083) = $8,093.53**
+Mojave: 282.083 = 3.804Q --> 74.154 AF - 84.364 AF = buying 10.210
+  **Mojave's cost: (84.364 * 282.083) + (10.210 * 282.083) = $26,677.72**
+Antelope: 282.083 = 2.858Q --> 98.681 AF - 132.572 AF = buying 33.891
+  **Antelope's cost: (132.572 * 282.083) + (33.891 * 282.083) = $46,956.38**
+Ventura: 282.083 = 1.776Q --> 158.831 AF - 147.637 AF = selling 11.194
+  **Ventura's cost: (158.831 * 282.083) - (11.194 * 282.083) = $41,645.89**
+
+
+For Kern Irrigation District, if going from 500 AF to 300 AF across the market, Cap and Trade benefits them the most as they are going to be able to sell water usage rights to other districts and profit **$1,564.57**. If going from the original 755 AF baseline to 300 AF across the market, they would choose Cap and Trade once again as they will be able to sell units of water profiting **$8,093.53**.
+
+For Mojave Irrigation District, if going from 500 AF to 300 AF across the market, they would rather have Cap without Trade as their cost would be **$2,616.35 instead of the Cap and trade cost of $5,155.83**. If going from the original 755 AF baseline to 300 AF across the market, they would choose Cap without Trade once again as their cost would be **$13,537.08 compared to having to buy $26,677.72** worth of water units in the Cap and Trade market from another irrigation district.
+
+For Antelope Irrigation District, they are going to choose similar to Mojave if going from 500 AF to 300 AF across the market, they would rather have Cap without Trade as their cost would be **$4,854.08 instead of the Cap and trade cost of $9,073.81**. If going from the original 755 AF baseline to 300 AF across the market, they would choose Cap without Trade once again as their cost would be **$19,355.46 compared to having to buy $46,956.38** worth of water units in the Cap and Trade market from another irrigation district.
+
+For Ventura Irrigation District, they are going to choose similar to Kern if going from 500 AF to 300 AF across the market, Cap and Trade benefits them the most as they are going to be able to sell water usage rights to other districts and have costs near **$8,047.45**. If going from the original 755 AF baseline to 300 AF across the market, they would choose Cap and Trade once again as they will be able to keep costs near due to selling units of water resulting in a cost of **$41,645.89**.
 
 
 
